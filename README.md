@@ -1,5 +1,7 @@
 # Sistema informático web para compra y venta de la zapateria Jadez, distrito Cuscatlán, Cuscatlán sur
 
+![Vista general](screenshots/dashboard.png)
+
 Sistema web desarrollado para la gestión de compra y venta de productos,
 incluye autenticación de usuarios, módulos completos y reportes en PDF.
 
@@ -25,3 +27,47 @@ incluye autenticación de usuarios, módulos completos y reportes en PDF.
 - Gestión de correos
 - Validaciones en backend
 - Estadísticas
+
+## 📸 Capturas
+
+### Login
+![Login](screenshots/login.png)
+
+### Listado de productos
+![Productos](screenshots/productos.png)
+
+### Venta
+![Ventas](screenshots/ventas.png)
+
+### Reportes
+![Reportes](screenshots/reportes.png)
+
+### Página web
+![Productos](screenshots/pagina.png)
+
+## 🚀 Instalación
+
+1. Clonar el repositorio
+```bash
+git clone https://github.com/javierhernandezprogramador-stack/zapateria
+```
+
+2. Configurar la base de datos en:
+```
+config/Conexion.php
+```
+
+3. Importar el archivo SQL ubicado en:
+```
+database/schema.sql
+```
+
+4.Ejecutar en servidor Apache
+
+## 📂 Estructura del proyecto
+![Esctructura](screenshots/estructura.png)
+
+## 👨‍💻 Autor
+**Javier Eduardo Hernández Sánchez**  
+Ingeniero de Sistemas informáticos 
+Backend Developer (PHP / Java - Spring Boot)
